@@ -5,7 +5,7 @@ Simple utilities for generating and converting time series data to supervised fo
 ## Usage
 
 ```python
-from timeseries_prep import timeseriesplayground
+from timeseries_prepro.timeseries_prep import timeseriesplayground
 
 ts = timeseriesplayground()
 data = ts.generate_synthetic_time_series()
